@@ -1,0 +1,41 @@
+/* Stylo Button Hamburger */
+.header__button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 2.5rem;
+  height: 3rem;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  gap: .35rem;
+}
+
+.header__button>.d {
+  background: black;
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
+  transition: .2s;
+  transform-origin: right;
+}
+
+.header__request, .request {
+    background-image: linear-gradient(to right, var(--Lime-Green),var(--Bright-Cyan));
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    color: var(--White);
+}
+
+.request {
+  padding: 10px 20px;
+}
+
+@media only screen and (max-width: 980px) {
+  .header__button {
+        display: flex;
+    }
+
+}

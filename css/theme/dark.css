@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text: white;
+        --backgruond-color: black;
+        --Dark-Blue: hsl(233, 26%, 4%);
+        
+        /* Neutral */
+        --Grayish-Blue: hsl(233, 8%, 32%);
+        --Light-Grayish-Blue: hsl(220, 16%, 56%);
+        --Very-Light-Gray: hsl(0, 0%, 58%);
+        --White: hsl(0, 0%, 100%);
+    }
+}
