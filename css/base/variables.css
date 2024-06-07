@@ -38,6 +38,10 @@
     font-size: var(--font-rem2);
 }
 
+.Light-Gray {
+    background-color: var(--Very-Light-Gray);
+}
+
 @media only screen and (max-width: 500px) {
     .rem3 {
         font-size: 2.5rem;
