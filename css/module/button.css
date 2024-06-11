@@ -11,8 +11,8 @@
   gap: .35rem;
 }
 
-.header__button>.d {
-  background: black;
+.header__button>.header__button-line {
+  background: var(--background-color);
   height: 2px;
   width: 100%;
   border-radius: 5px;
@@ -20,7 +20,7 @@
   transform-origin: right;
 }
 
-.header__request, .request {
+.header__request, .container__button {
     background-image: linear-gradient(to right, var(--Lime-Green),var(--Bright-Cyan));
     padding: 10px;
     border-radius: 18px;
@@ -29,7 +29,21 @@
     color: var(--White);
 }
 
-.request {
+.header__theme {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: var(--dark-wite);
+}
+
+.theme__image {
+  border-radius: 50%;
+}
+
+.container__button {
   padding: 10px 20px;
 }
 

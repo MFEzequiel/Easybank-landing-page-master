@@ -1,13 +1,22 @@
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-text: white;
-        --backgruond-color: black;
-        --Dark-Blue: hsl(233, 26%, 4%);
-        
-        /* Neutral */
-        --Grayish-Blue: hsl(233, 8%, 32%);
-        --Light-Grayish-Blue: hsl(220, 16%, 56%);
-        --Very-Light-Gray: hsl(0, 0%, 58%);
-        --White: hsl(0, 0%, 100%);
-    }
+:root[data-tema="dark"] {
+    --color-text: white; 
+    --background-color: #fff; 
+    /* Primary */
+    --Dark-Blue: hsl(136, 65%, 75%); 
+    --Lime-Green: hsl(136, 65%, 61%);
+    --Bright-Cyan: hsl(192, 70%, 61%);
+    /* Neutral */
+    --Grayish-Blue: hsl(233, 8%, 72%);
+    --Light-Grayish-Blue: hsl(233, 26%, 20%);
+    --Very-Light-Gray: hsl(233, 26%, 30%);
+    --White: hsl(233, 26%, 45%);
+    --dark-wite: hsl(233, 26%, 30%);
+    /* Additional Colors */
+    --Accent-Color: hsl(50, 100%, 50%);
+    --Border-Color: hsl(0, 0%, 40%);
+    --Hover-Color: hsl(136, 65%, 75%); 
+    --Active-Color: hsl(136, 65%, 45%);
+    --Secondary-Background: hsl(233, 26%, 20%);
+    --mode--dark: hsl(234deg 25% 50% / 5%);
+    background-color: var(--Light-Grayish-Blue);
 }

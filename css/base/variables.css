@@ -1,7 +1,6 @@
 :root {
     --color-text: black;
     --backgruond-color: white;
-    color-scheme: light dark;
     text-rendering: optimizeLegibility;
     /* Primary */
     --Dark-Blue: hsl(233, 26%, 24%);
@@ -12,13 +11,12 @@
     --Light-Grayish-Blue: hsl(220, 16%, 96%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
     --White: hsl(0, 0%, 100%);
+    --dark-wite: hsl(233, 26%, 30%);
+    --Accent-Color: hsl(233, 8%, 62%);
     --box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+
     --font-rem3: 3rem;
     --font-rem2: 2rem;
-}
-
-.title {
-    font-weight: 700;
 }
 
 .title2 {
@@ -30,6 +28,8 @@
     color: var(--Grayish-Blue);
 }
 
+
+
 .rem3 {
     font-size: var(--font-rem3);
 }
@@ -38,8 +38,11 @@
     font-size: var(--font-rem2);
 }
 
-.Light-Gray {
-    background-color: var(--Very-Light-Gray);
+
+@media only screen and (max-width: 980px) {
+    .wid {
+        width: 365px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -49,5 +52,9 @@
 
     .rem2 {
         font-size: 1.5rem;
+    }
+
+    .wid {
+        width: auto;
     }
 }

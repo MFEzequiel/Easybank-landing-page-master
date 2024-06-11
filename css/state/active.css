@@ -1,16 +1,16 @@
-.li__link--active {
+.nav__link--active {
     color: var(--Dark-Blue);
     border-bottom: 2px solid var(--Lime-Green);
 }
 
-.header__hanburger>.div:first-child {
+.header__button>.header__button-active:first-child {
   transform: rotate(-45deg);
 }
 
-.header__hanburger>.div:nth-child(2) {
+.header__button>.header__button-active:nth-child(2) {
   opacity: 0;
 }
 
-.header__hanburger>.div:last-child {
+.header__button>.header__button-active:last-child {
   transform: rotate(45deg);
 }

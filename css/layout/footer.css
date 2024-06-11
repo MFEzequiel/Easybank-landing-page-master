@@ -1,0 +1,6 @@
+.footer {
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    background-color: var(--Dark-Blue);
+    width: 100%;
+}

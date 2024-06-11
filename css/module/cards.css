@@ -2,31 +2,18 @@
     width: 600px;
 }
 
-.container__article__text,.sect__container__text {
+.container__article {
     display: flex;
     flex-flow: column wrap;
     gap: 20px;
     width: 395px;
 }
 
-.container__cont__img {
-    position: relative;
-    width: 50%;
-    height: 100%;
-}
-
-.cont__img {
-    position: absolute;
-    width: 570px;
-    right: -106px;
-    top: -50px;
-    aspect-ratio: 394/481;
-}
-
-.container__carts {
+.main__cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(197px,1fr));
     gap: 20px 10px;
+    grid-template-columns: 250px 250px 250px 250px;
+    overflow: hidden;
 }
 
 .set__carts {
@@ -38,24 +25,76 @@
     background-color: var(--Light-Grayish-Blue);
 }
 
-@media only screen and (max-width: 980px) {
-    .sect__container__text {
-        width: 100%;
-        text-align: center;
-    }
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 30px;
+    overflow: hidden;
+}
 
-    .container__carts {
+.card--width {
+    width: 250px;
+}
+
+.card__author {
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--Accent-Color);
+}
+
+.art__img {
+    object-fit: cover;
+    width: 100%;
+    height: 175px;
+    border-radius: 8px 8px 0 0;
+}
+
+.article__container__text {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    width: 100%;
+    row-gap: 10px;
+    padding: 0 15px;
+}
+
+.article__link {
+    color: var(--color-text);
+}
+
+
+@media only screen and (max-width: 980px) {
+    
+    .main__cards {
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
         padding: 0 10px;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .container__article__text {
+    .container__article, .sect__container__text {
         padding: 0 10px;
+        width: auto;
     }
 
-    .container__carts {
+    .main__cards {
+        justify-items: center;
         text-align: center;
         width: 100%;
+    }
+
+    .card {
+        align-items: center;
+        text-align: initial;
+    }
+
+    .card--width {
+        width: auto;
+    }
+
+    .art__img {
+        object-fit: fill;
     }
 }
