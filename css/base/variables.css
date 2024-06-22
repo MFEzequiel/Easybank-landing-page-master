@@ -1,0 +1,31 @@
+:root {
+    --color-text: black;
+    --backgruond-color: white;
+    /* Primary */
+    --Dark-Blue: hsl(233, 26%, 24%);
+    --Lime-Green: hsl(136, 65%, 51%);
+    --Bright-Cyan: hsl(192, 70%, 51%);
+    /* Neutral */
+    --Grayish-Blue: hsl(233, 8%, 62%);
+    --Light-Grayish-Blue: hsl(220, 16%, 96%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --dark-wite: hsl(233, 26%, 30%);
+    --Accent-Color: hsl(233, 8%, 62%);
+    --footer-bc: hsl(233, 26%, 20%);
+    --Secondary-Background: hsl(233, 26%, 20%);
+    --box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+    --ul-white: #fff;
+
+    --font-rem3: 3rem;
+    --font-rem2: 2rem;
+}
+
+.title2 {
+    font-weight: 500;
+}
+
+.paragraph {
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+}

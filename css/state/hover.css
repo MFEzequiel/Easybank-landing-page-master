@@ -1,0 +1,13 @@
+.nav__link:hover, .menu__link-hover:hover {
+    color: var(--Dark-Blue);
+    border-bottom: 2px solid var(--Lime-Green);
+}
+
+.header__request--hover:hover, .header__request--hover:hover {
+    background-image: linear-gradient(to right, var(--Grayish-Blue), var(--Lime-Green),var(--Bright-Cyan));
+    outline: 2px solid var(--Accent-Color);
+}
+
+.article__hover:hover, .menu__link-hover:hover {
+    color: var(--Bright-Cyan);
+}
