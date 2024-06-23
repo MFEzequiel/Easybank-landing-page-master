@@ -128,7 +128,7 @@
 
     .container__image {
         position: static;
-        width: 70%;
+        width: 80%;
         object-fit: fill;
     }
 
@@ -142,6 +142,14 @@
     .container {
         background: url("../../assets/images/bg-intro-mobile.svg") no-repeat;
         background-size: cover;
+    }
+
+    .container__image-wrapper {
+        overflow: visible;
+    }
+
+    .container__image {
+        width: 100%;
     }
 }
 

@@ -4,7 +4,7 @@
 
 @import url('layout/header.css');
 @import url('layout/footer.css');
-@import url('layout/gridFlex.css');
+@import url('layout/grid.css');
 
 @import url('module/button.css');
 @import url('module/cards.css');
