@@ -1,5 +1,3 @@
-import './css/style.css'
-
 const d = document
 const $ = s => d.querySelector(s)
 const $$ = s => d.querySelectorAll(s)
