@@ -63,13 +63,23 @@
 
 
 @media only screen and (max-width: 980px) {
-    
     .main__cards {
         grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
         padding: 0 10px;
         width: 100%;
         justify-items: center;
     }
+
+    .card {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .main__paragraph {
+        width: 210px;
+    }
+    
 }
 
 @media only screen and (max-width: 500px) {

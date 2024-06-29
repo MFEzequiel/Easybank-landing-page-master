@@ -51,6 +51,10 @@
     color: var(--Grayish-Blue);
 }
 
+.main {
+    width: 100%;
+}
+
 .main__section {
     display: flex;
     flex-direction: column;
